@@ -1,12 +1,5 @@
-# # Estimating $\pi$
-#
-# This is the simplest PySpark example. It shows how to estimate $\pi$ in parallel
-# using Monte Carlo integration. If you're new to PySpark, start here!
 
-from __future__ import print_function
-import sys
-from random import random
-from operator import add
+
 from pyspark.sql import SparkSession
 
 spark = SparkSession\
