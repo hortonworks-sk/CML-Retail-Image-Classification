@@ -68,21 +68,23 @@ df['y'].value_counts()/len(df)
 df.corr() # correlation matrix analysis to show r2 value
 
 
+df2 = df[["age", "duration", "campaign" ]]
+
 # In[511]:
 
 
 # scatter matrix visualization
 from pandas.plotting import scatter_matrix
-scatter_matrix(df, figsize=(18,12))
+scatter_matrix(df2, figsize=(18,12))
 
 
 # In[13]:
 
 
 # visualize categorical features
-categorical = ['job','marital','education','default','housing','loan','contact','month','day_of_week','poutcome']
+categorical = ['education','contact','month']
 for i in categorical:
-    df[i].value_counts().plot(kind='bar',figsize = (10, 6),title=i)
+    df[i].value_counts().plot(kind='bar',figsize = (10, 2),title=i)
     plt.show()
 
 
@@ -540,9 +542,10 @@ model_NN.add(Dense(64, activation='sigmoid', input_shape=(62,)))
 model_NN.add(Dropout(.2))
 model_NN.add(Dense(1, activation='sigmoid'))
 
+'''
 # import keras metrics functiona for precison and recall from current directory
 from keras_precision_recall_metrics import recall
-
+'''
 
 # Compiling the model
 model_NN.compile(loss = 'binary_crossentropy', optimizer='adam', metrics=[recall])

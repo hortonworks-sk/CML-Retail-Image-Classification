@@ -23,3 +23,6 @@ touch .gitignore
 vi .gitignore
 vi .gitignore
 git add .
+python ./sparksql.py
+python --v
+python --version
