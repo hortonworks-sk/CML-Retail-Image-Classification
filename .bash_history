@@ -26,3 +26,11 @@ git add .
 python ./sparksql.py
 python --v
 python --version
+git add
+git add .
+git status
+git
+git show origin
+ls
+git commit -m "Data, DDL files added.  Tensorboard & tensorflow visualisations added"
+git push origin master
