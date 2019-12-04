@@ -1,7 +1,17 @@
-!pip3 install NumPy==1.13.1
-!pip3 install keras==2.0.6
-!pip3 install matplotlib==2.0.2
-!pip3 install pandas==0.20.3
-!pip3 install scikit-learn==0.19.1
+!pip2 install np_utils
+!pip2 install pillow
+!pip2 install tensorflow
+!pip2 install keras
+!pip2 install sklearn
+!pip install scipy --upgrade
+!pip2 install wait
+!pip2 install flask
 
-!pip3 install tensorflow==1.2.1
+!pip3 install np_utils
+!pip3 install pillow
+!pip3 install tensorflow
+!pip3 install keras
+!pip3 install sklearn
+!pip3 install scipy --upgrade
+!pip3 install wait
+!pip3 install flask
