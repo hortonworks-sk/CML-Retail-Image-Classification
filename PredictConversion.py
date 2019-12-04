@@ -33,7 +33,7 @@ pdf_pre = sdf.toPandas()
 pdf_pre.style.format({"surname": lambda x:x.upper()})\
     .format({"title": lambda x:x.upper()})
 
-sdf2 = sdf.withColumn("acc", rand()/3)
+sdf2 = sdf.withColumn("conversion probability", rand()/3)
 
 #df2.show()
 
@@ -51,7 +51,7 @@ cm = sns.light_palette("lightblue", as_cmap=True)
 
 pdf.style.format({"surname": lambda x:x.upper()})\
     .format({"title": lambda x:x.upper()})\
-    .background_gradient(cmap=cm, subset=['acc'])
+    .background_gradient(cmap=cm, subset=['conversion probability'])
   
 
 

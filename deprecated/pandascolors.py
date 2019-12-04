@@ -1,4 +1,4 @@
-
+de
 def color_negative_red(v):
     color = 'red' if v < 0.1 else 'black'
     return 'color: %s' % color
