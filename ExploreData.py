@@ -16,7 +16,7 @@ get_ipython().magic('matplotlib inline')
 
 
 # import dataset
-df = pd.read_csv('data/bank-additional-full.csv',sep=';',)
+df = pd.read_csv('data/bank-additional-full-age-removed.csv',sep=';',)
 
 
 # In[501]:
@@ -68,7 +68,7 @@ df['y'].value_counts()/len(df)
 df.corr() # correlation matrix analysis to show r2 value
 
 
-df2 = df[["age", "duration", "campaign" ]]
+df2 = df[["income", "duration", "campaign" ]]
 
 # In[511]:
 
