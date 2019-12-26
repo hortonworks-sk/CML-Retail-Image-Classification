@@ -1,4 +1,6 @@
 
+CREATE DATABASE IF NOT EXISTS sbk_banking LOCATION 's3a://sbk-buckets/banking';
+
 
 CREATE DATABASE IF NOT EXISTS sbk_banking LOCATION 's3a://partners-buckets/partners-ab-05/sbk/banking';
 
