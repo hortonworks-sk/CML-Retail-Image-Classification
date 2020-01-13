@@ -11,12 +11,20 @@ import numpy as np
 import matplotlib.pyplot as plt
 get_ipython().magic('matplotlib inline')
 
+spark = SparkSession\
+    .builder\
+    .appName("PythonPi")\
+    .getOrCreate()
+
 
 # In[2]:
 
+df = spark.read.format("csv").load("file:/data/bank-additional-full.csv")
+
+
 
 # import dataset
-df = pd.read_csv('data/bank-additional-full.csv',sep=';',)
+# df = pd.read_csv('data/bank-additional-full.csv',sep=';',)
 
 
 # In[501]:
