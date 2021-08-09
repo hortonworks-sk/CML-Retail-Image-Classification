@@ -171,3 +171,4 @@ ls
 git add .
 git commit -m "requirements added"
 git push -u origin main
+pip3 install -r requirements3.txt

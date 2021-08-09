@@ -1,9 +1,0 @@
-numpy==1.19.2
-np_utils
-pillow
-sklearn
-scipy  
-wait
-flask
-tensorflow==2.0
-keras==2.3

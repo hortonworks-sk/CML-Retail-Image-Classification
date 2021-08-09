@@ -1,2 +1,10 @@
-tensorflow-cpu==2.4.0
-keras==2.4.0
+numpy==1.19.2
+np_utils
+h5py<3.0.0
+pillow
+sklearn
+scipy  
+wait
+flask
+tensorflow==2.0
+keras==2.3
