@@ -172,3 +172,10 @@ git add .
 git commit -m "requirements added"
 git push -u origin main
 pip3 install -r requirements3.txt
+git remote set-url origin git@github.com:hortonworks-sk/CML-Retail.git
+git push -u origin main
+git push -u origin main
+git add .
+git status
+git commit -m "requ versions updated & working"
+git push -u origin main
