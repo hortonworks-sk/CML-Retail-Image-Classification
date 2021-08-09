@@ -165,3 +165,9 @@ git push -u origin main
 git remote set-url origin git@github.com:hortonworks-sk/CML-Retail.git
 git push -u origin main
 git push -u origin main
+pip3 show keras
+pip3 show keras
+ls
+git add .
+git commit -m "requirements added"
+git push -u origin main
