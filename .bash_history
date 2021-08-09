@@ -147,3 +147,21 @@ vi
 vi
 vi
 vi
+ls
+ls -all
+vi 
+vi .gitignore
+git add .
+git status
+git status
+git commit -m "Second Commit"
+git branch -M main
+git remote add origin https://github.com/hortonworks-sk/CML-Retail.git
+git remote -v
+git remote set-url https://github.com/hortonworks-sk/CML-Retail.git
+git remote set-url origin https://github.com/hortonworks-sk/CML-Retail.git
+git remote -v
+git push -u origin main
+git remote set-url origin git@github.com:hortonworks-sk/CML-Retail.git
+git push -u origin main
+git push -u origin main
