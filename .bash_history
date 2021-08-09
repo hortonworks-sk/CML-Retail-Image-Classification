@@ -135,3 +135,15 @@ cp CDSW-Melanoma2/demo/models/bottleneck_fc_model.h5 demo
 pwd
 ls
 rm -Rf CDSW-Melanoma2
+git init
+git commit -m "Initial Commit"
+git add .
+ls 
+ls -all
+git status
+vi gitignore
+vi .gitignore
+vi
+vi
+vi
+vi
