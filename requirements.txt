@@ -8,3 +8,4 @@ wait
 flask
 tensorflow==2.0
 keras==2.3
+pandas==1.3.2
